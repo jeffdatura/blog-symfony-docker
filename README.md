@@ -35,6 +35,7 @@ DATABASE_URL="mysql://root:@db_blog:3306/symfony?serverVersion=8&charset=utf8mb4
 ```
 ```
 make database-create
+```
 
 # unlock for dev "install all dependencies and other"
 ```

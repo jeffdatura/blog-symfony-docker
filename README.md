@@ -28,7 +28,7 @@ docker exec -w /var/www/project www_blog symfony console make:controller Home
 docker exec -w /var/www/project www_blog symfony local:php:list
 ```
 
-# unlock for dev "install all dependencys and other"
+# unlock for dev "install all dependencies and other"
 ```
 sudo chown -R $USER ./
 ```

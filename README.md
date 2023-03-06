@@ -10,6 +10,9 @@ make help
 docker exec www_blog composer create-project symfony/skeleton:"6.2.*" project
 ```
 ```
+cd project
+```
+```
 composer require webapp
 ```
 ```

@@ -18,7 +18,7 @@ RUN echo "ServerName localhost" >> /etc/apache2/apache2.conf \
   \
   &&  curl -sS https://get.symfony.com/cli/installer | bash \
   &&  mv /root/.symfony5/bin/symfony /usr/local/bin \
-  \ 
+  \
   &&  docker-php-ext-configure \
   intl \
   &&  docker-php-ext-install \
